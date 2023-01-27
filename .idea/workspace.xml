@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fd84930-9373-48bc-b1cc-f6706ccf6fdf" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.section .container</find>
+      <find>booking-transport</find>
+      <find>.logo h6</find>
+      <find>.contact-links div a</find>
+      <find>contact-links</find>
+      <find>social-media-icons</find>
+      <find>login-signup</find>
+      <find>.contact-info a</find>
+      <find>login-menu</find>
+      <find>nav-bottom</find>
+      <find>pages-nav</find>
+      <find>nav-links</find>
+      <find>login-links</find>
+      <find>.map-icon</find>
+      <find>.contact-us-heading img</find>
+      <find>.container</find>
+      <find>.find-hotel-heading</find>
+      <find>.booking-transport</find>
+      <find>.booking-details .row</find>
+      <find>.booking-transport li</find>
+      <find>margin-bottom</find>
+      <find>.booking-price</find>
+      <find>.booking-details</find>
+      <find>.inner-services-boxes img</find>
+      <find>.budget</find>
+      <find>.budget-icon img</find>
+      <find>.tours</find>
+      <find>.reviews</find>
+      <find>tours-heading</find>
+      <find>tours-places</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1eibT5PTcjauDrKyjlwp5N98NGE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fd84930-9373-48bc-b1cc-f6706ccf6fdf" name="Default" comment="" />
+      <created>1583851760655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583851760655</updated>
+      <workItem from="1583851762303" duration="1696000" />
+      <workItem from="1583933430317" duration="13206000" />
+      <workItem from="1584005684494" duration="26402000" />
+      <workItem from="1584095934191" duration="2590000" />
+      <workItem from="1584103933716" duration="8613000" />
+      <workItem from="1584179302607" duration="19827000" />
+      <workItem from="1584352665898" duration="25587000" />
+      <workItem from="1584439535630" duration="19390000" />
+      <workItem from="1584526082781" duration="1356000" />
+      <workItem from="1584534289413" duration="9168000" />
+      <workItem from="1584611425275" duration="17976000" />
+      <workItem from="1594807366889" duration="617000" />
+      <workItem from="1594905329312" duration="2316000" />
+      <workItem from="1595948873930" duration="3438000" />
+      <workItem from="1596042263579" duration="944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

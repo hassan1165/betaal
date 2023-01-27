@@ -1,0 +1,1777 @@
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.otf')  format('opentype'),
+    url('../fonts/MyriadPro-Regular.ttf')  format('truetype'),
+    url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.eot') format('embedded-opentype'),
+    url('../fonts/Montserrat-Regular.otf')  format('opentype'),
+    url('../fonts/Montserrat-Regular.ttf')  format('truetype'),
+    url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.eot') format('embedded-opentype'),
+    url('../fonts/Montserrat-Black.otf')  format('opentype'),
+    url('../fonts/Montserrat-Black.ttf')  format('truetype'),
+    url('../fonts/Montserrat-Black.svg#Montserrat-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.eot') format('embedded-opentype'),
+    url('../fonts/Montserrat-Medium.otf')  format('opentype'),
+    url('../fonts/Montserrat-Medium.ttf')  format('truetype'),
+    url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.eot') format('embedded-opentype'),
+    url('../fonts/Montserrat-ExtraBold.ttf')  format('truetype'),
+    url('../fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('../fonts/Lato-Medium.eot') format('embedded-opentype'),
+    url('../fonts/Lato-Medium.ttf')  format('truetype'),
+    url('../fonts/Lato-Medium.svg#Lato-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-MediumItalic';
+    src: url('../fonts/Lato-MediumItalic.eot') format('embedded-opentype'),
+    url('../fonts/Lato-MediumItalic.ttf')  format('truetype'),
+    url('../fonts/Lato-MediumItalic.svg#Lato-MediumItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold.eot') format('embedded-opentype'),
+    url('../fonts/Lato-Bold.ttf')  format('truetype'),
+    url('../fonts/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'),
+    url('../fonts/Lato-Regular.ttf')  format('truetype'),
+    url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.menu_icon{
+    display:none;
+    font-size: 30px;
+    text-align: right;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1244px !important;
+}
+.banner{
+    background-image: url("../img/maldives-img.png");
+    /*background-size: 100% 100%;*/
+}
+.header{
+    background-image: url("../img/header-shadow-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo{
+    text-align: center;
+    padding-right: 0px !important;
+}
+.logo h6 {
+    padding-left: 14px;
+    margin: 8px 0px 0px 0px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #590c6a;
+    font-weight: bolder;
+}
+.contact-info a span {
+    padding-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.contact-info a {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    display: inline-block;
+    line-height: normal;
+    padding: 0 10px;
+    color: #ffffff;
+}
+.contact-info a i{
+    color: #ffdd00;
+    font-size: 16px;
+}
+
+.nav-top {
+    border-bottom: 3px solid #bfa4ca;
+    padding: 20px 5px;
+}
+.social-icon {
+    float: left;
+}
+.social-icon a {
+    color: #ffdd00;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+.social-icon a:hover{
+    color: #ffffff;
+    list-style: none;
+    text-underline: none;
+}
+.login-menu{
+    float: right;
+}
+.login-menu a{
+    font-family: 'Montserrat-Regular';
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.login-menu a i{
+    color: #ffdd00;
+    font-size: 16px;
+}
+.menu{
+    margin-top: 20px;
+}
+.menu ul {
+    text-align: right;
+}
+.menu li {
+    display: inline-block;
+    color: #ffffff;
+}
+/*.menu a{*/
+    /*color: #ffffff;*/
+    /*font-size: 15px;*/
+    /*list-style: none;*/
+    /*display: inline-block;*/
+    /*!*margin-right: 45px;*!*/
+    /*!*font-weight: 500;*!*/
+/*}*/
+.menu li a {
+    font-family: 'Montserrat-Regular';
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    padding: 12px 0px;
+    margin: 0 20px;
+    display: block;
+    color: #ffffff;
+}
+.nav-links a:hover{
+    border-bottom: 2px solid #ffdd00;
+    padding-bottom: 25px;
+}
+.nav-active{
+    border-bottom: 2px solid #ffdd00;
+    padding-bottom: 25px;
+}
+.nav-links a:hover{
+    color: #ffffff;
+    list-style: none;
+    text-underline: none;
+}
+.banner-details {
+    padding: 90px 0;
+}
+.section-container {
+    font-family: 'Montserrat-Regular';
+    color: #ffffff;
+}
+.section-container h2{
+    font-family: 'Montserrat-Black';
+    font-size: 68px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.section-container h3{
+    font-family: 'Montserrat-Black';
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.section-container p {
+    font-family: 'MyriadPro-Regular';
+    font-size: 17px;
+    width: 660px;
+    margin-top: 30px;
+}
+.section-container button{
+    font-family: 'Montserrat-Medium';
+    background-color: #c1a920;
+    border: none;
+    padding: 10px 60px 10px 45px;
+    font-weight: 800;
+    margin-top: 80px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+
+.find-hotel{
+    background-image: url("../img/background-shadow-img.png");
+}
+.find-hotel {
+    padding: 70px 0px;
+}
+.find-hotel-heading{
+    margin-top: 10px;
+}
+.find-hotel-heading h2{
+    font-family: 'Montserrat-Black';
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+.search-form{
+    margin-top: 50px;
+}
+.search-form label {
+    font-family: 'Montserrat-Medium';
+}
+.search-form input {
+    font-family: 'Montserrat-Medium';
+    border: none;
+    border-radius: 3px;
+    padding: 8px 0px 8px 15px;
+    width: 100%;
+    font-size: 16px;
+}
+.search-form button{
+    font-family: 'Montserrat-Medium';
+    font-size: 15px;
+    padding: 5px 35px;
+    background-color: #4b4b4b;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 37px;
+}
+
+.about-img{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+}
+.about-details{
+    width: 100%;
+    background-image: url("../img/about-shadow-img.png");
+    background-repeat: no-repeat;
+   
+}
+.inner-about-details{
+    padding: 70px 55px;
+}
+.inner-about-details h2{
+    font-family: 'Montserrat-Black';
+    /*font-size: 35px;*/
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.inner-about-details h3{
+    font-family: 'Montserrat-Regular';
+    /*font-size: 35px;*/
+}
+.inner-about-details p{
+    font-family: 'Lato-Medium';
+    font-size: 15px;
+    font-weight: 600;
+    width: 460px;
+    margin-top: 30px;
+}
+.fa-ul{
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.fa-ul li{
+    font-family: 'Lato-Medium';
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.fa-ul li i{
+    font-size: 25px;
+    color: #00a4ff;
+}
+.services{
+    padding: 40px 60px;
+}
+.services-heading h2{
+    font-family: 'Montserrat-Black';
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+.services-heading h1{
+    font-family: 'Montserrat-Regular';
+    text-align: center;
+    font-size: 35px;
+}
+
+.services-details {
+    width: 300px;
+    margin-left: 30px;
+}
+.services-details h3{
+    font-family: MyriadPro-Regular;
+    font-size: 30px;
+    text-align: left;
+}
+.services-details p{
+    font-family: 'Lato-Medium';
+    margin-top: 10px;
+    font-weight: 600;
+}
+.saperate-color-1{
+    font-family: 'MyriadPro-Regular';
+    font-weight: 700;
+    color: #ffbe5c;
+}
+.saperate-color-2{
+    font-family: 'MyriadPro-Regular';
+    font-weight: 700;
+    color: #aa37c7;
+}
+.inner-services-boxes{
+    margin-top: 60px;
+    margin-right: 0px;
+}
+
+
+.budget{
+    padding-top: 30px;
+    background-image: url("../img/budget-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.budget h2{
+    font-family: 'Montserrat-Black';
+}
+.budget h1{
+    font-family: 'Montserrat-Regular';
+}
+.budget-details{
+    margin-top: 100px;
+}
+.budget-blog{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 0 20px;
+}
+.budget-icon{
+    height: 70px;
+}
+.budget-title h4 {
+    font-family: 'Montserrat-ExtraBold';
+    text-align: center;
+    margin: 15px 0;
+}
+.tag {
+    width: 102%;
+    margin: 20px -3px;
+    padding: 3px 0px 5px 0px;
+    background-color: #f0d839;
+}
+.list {
+    padding: 0px 80px 25px 80px;
+}
+.list .fa-ul {
+    width: 100%;
+}
+.list ul li {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+.mid-budget{
+    margin-top: -15px;
+}
+.budget-background-shadow{
+    margin-top: -109px;
+}
+.budget-background-shadow img{
+    width: 100%;
+}
+
+
+.section{
+    padding: 70px 20px;
+}
+.section-inner-img img{
+    width: 100%;
+}
+.section-inner-detail{
+    padding-left: 60px;
+}
+.section-inner-detail h3{
+    font-family: 'Montserrat-Black';
+}
+.section-inner-detail h2{
+    font-family: 'Montserrat-Regular';
+}
+
+
+.tour-status-nav {
+    border: 2px solid #00a4ff;
+    margin-top: 40px;
+}
+.tour-status-nav ul{
+    margin-bottom: 0rem;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tour-status-nav li {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+    margin-top: 0px;
+}
+.tour-status-nav li span img {
+    width: 26px;
+    height: auto;
+}
+.tour-status-nav li.active a {
+    background-color: #00a4ff;
+    color: #fff;
+}
+.tour-status-nav li a {
+    display: block;
+    padding: 23px 80px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    background: #fff;
+}
+.tour-status-nav li.active a:after {
+    border-left: 20px solid #00a4ff;
+}
+.tour-status-nav li a:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 20px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+}
+.tour-status-nav li a:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 20px solid #e4e4e4;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    left: 100%;
+    z-index: 2;
+}
+.tour-status-nav li:nth-child(2) a {
+    background: #e4e4e4;
+}
+.tour-status-nav li:last-child a:after, .tour-status-nav li:last-child a:before {
+    border: none;
+}
+
+
+.tour-status-details p {
+    font-family: 'Lato', sans-serif;
+    width: 590px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.tour-status-link a {
+    background: #f2da39;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 14px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.flight a{
+    text-decoration: none;
+}
+.slide-menu ul li img{
+}
+.flight {
+    background-color: #00a4ff;
+    color: #ffffff;
+}
+.flight::after {
+    display: block;
+}
+.cab {
+    background-color: #e4e4e4;
+}
+.slide-menu p {
+    font-family: 'Lato-Medium';
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 575px;
+}
+.slide-menu button {
+    font-family: 'Montserrat-Medium';
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 13px 60px;
+    background-color: #f3db3a;
+    border: none;
+    border-radius: 7px;
+}
+
+
+
+.tours{
+    background-image: url("../img/tours.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+.tours-heading{
+    padding-top: 35px;
+    padding-bottom: 100px;
+    text-align: center;
+ }
+.tours-heading h3{
+    font-family: 'Montserrat-Black';
+}
+.tours-heading h2{
+    font-family: 'Montserrat-Regular';
+}
+.tour-packages .row{
+    padding: 10px;
+}
+.tour-packages .row .col-md-4{
+    padding: 0!important;
+}
+.package {
+    float: left;
+    width: 33.3%;
+    background: #fff;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 20px;
+}
+.package-image {
+    text-align: left;
+}
+.package-image img {
+    width: 100%;
+}
+.package-duration {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    margin-top: 10px;
+}
+.package-title h3 {
+    font-family: 'Montserrat-Black';
+    font-weight: 900;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.package-detail p {
+    font-family: 'Lato-Medium';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 0;
+    padding: 0px 70px;
+}
+.package-price {
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.package-book a {
+    background: #f3db3a;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+.package.triangle {
+    margin: -10px -17px 0;
+    z-index: 999;
+    width: 36%;
+    box-shadow: 0px 0px 5px #333;
+    padding-bottom: 10px;
+}
+.package-arow {
+    width: 100%;
+    position: absolute;
+    bottom: -88px;
+}
+
+.tours-background-shadow {
+    background-image: url("../img/tours-shadow-img.png");
+    background-size: 100%;
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    margin-top: -100px;
+}
+.tours-background-shadow img{
+    width: 100%;
+}
+.tour-status-heading h3{
+    font-family: 'Montserrat-Black';
+}
+.tour-status-heading h2{
+    font-family: 'Montserrat-Regular';
+}
+
+
+
+.explore{
+    text-align: center;
+    background-image: url("../img/explore.png");
+    background-repeat: no-repeat;
+    padding: 70px 0px 40px 0px;
+    background-size: cover;
+}
+.explore-heading h3{
+    font-family: 'Montserrat-Black';
+}
+.explore-heading h2{
+    font-family: 'Montserrat-Regular';
+}
+.explore-blog{
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.explore-blog img{
+    margin-bottom: -15px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.explore-blog button {
+    font-family: 'Montserrat-Medium';
+    background-color: #f6dd3a;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.explore-blog h5 {
+    font-family: 'Montserrat-Black';
+    margin-top: 30px;
+}
+.explore-blog p {
+    font-family: 'Lato-Medium';
+    margin-top: 15px;
+    padding: 5px 50px 30px 50px;
+}
+
+
+
+
+.reviews{
+    background-image: url("../img/reviews-background.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 0px 60px 0px;
+    background-size: cover;
+}
+.reviews-heading h2{
+    font-family: 'Montserrat-Black';
+}
+.reviews-heading h1{
+    font-family: 'Montserrat-Regular';
+    margin-top: 15px;
+}
+.reviews-heading p{
+    font-family: 'Lato-MediumItalic';
+    padding: 0px 130px;
+    margin-top: 60px;
+}
+.reviews-star {
+    padding-left: 0!important;
+}
+.reviews-star li {
+    list-style: none;
+    display: inline-block;
+    color: #f2da39;
+    margin-left: 10px;
+}
+.customer-details {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+.customer-details .row {
+    padding-left: 50px;
+}
+.customer-details .row img{
+    height: 100%;
+}
+.customer-details{
+    margin-top: 50px;
+}
+.profile-details h5{
+    font-family: 'Montserrat-Black';
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.profile-details p{
+    font-family: 'Montserrat-Regular';
+    margin-top: 0px;
+}
+
+
+
+.booking {
+    padding: 90px 50px 50px 80px;
+}
+.booking-background{
+    width: 100%;
+}
+.booking-details {
+    position: relative;
+    background-color: #ffffff;
+    width: 520px;
+    margin-top: 70px;
+    margin-left: -150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px black;
+    padding: 30px 30px;
+}
+.booking-details h2{
+    font-family: 'Montserrat-Black';
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.booking-details h3{
+    font-family: 'Montserrat-Regular';
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.booking-transport {
+    padding-left: 0px;
+    margin-top: 30px;
+}
+.booking-transport li {
+    font-family: 'Montserrat-Regular';
+    text-align: center;
+    width: 15%;
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+}
+.booking-transport li span{
+    margin-top: 5px;
+}
+.b-flight {
+    margin-left: -5px;
+}
+.booking-details p{
+    font-family: 'Lato-Medium';
+    width: 440px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.booking-price{
+    font-family: 'Montserrat-Black';
+}
+.booking-button {
+    font-family: 'Montserrat-Medium';
+    padding: 8px 35px;
+    background-color: #f1d939;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+
+
+.contact-us-top{
+    padding-top: 130px;
+    /*width: 100%;*/
+    background: url(../img/contact-us-background.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact-us-heading{
+    text-align: center;
+    color: #ffffff;
+}
+.contact-us-heading h3{
+    font-family: 'Montserrat-Black';
+    font-size: 37px;
+}
+.contact-us-heading h2{
+    font-family: 'Montserrat-Regular';
+    font-size: 37px;
+}
+
+
+
+.contact-us-center {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.contact-us-center .container {
+    padding: 0px 50px;
+}
+.contact-us-details{
+    margin-left: 20px;
+}
+.contact-us-details h5{
+    font-family: 'Lato-Bold';
+}
+.contact-us-details p{
+    font-family: 'Lato-Regular';
+    width: 140px;
+}
+.location{
+    width: 200px!important;
+}
+.contact-us-links{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.contact-us-links ul li {
+    font-size: 28px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    border: 2px solid #f0d839;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.contact-us-heading {
+    /*margin-top: 70px;*/
+    position: relative;
+    bottom: -20px;
+    /*text-align: center;*/
+}
+
+
+
+.contact-us-footer{
+    background-color: #943cf3;
+}
+.footer-logo{
+    margin-top: -170px;
+}
+.footer-logo h5 {
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin-top: 10px;
+}
+.creator p {
+    font-family: 'MyriadPro-Regular';
+    text-align: center;
+    width: 232px;
+    line-height: 30px;
+    margin-left: 70px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    .package-arow {
+        bottom: -82px;
+    }
+    .package-detail p {
+        padding: 0px 50px;
+    }
+
+    .social-icon.col-md-6 {
+        padding: 0px;
+    }
+    .menu li a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .inner-about-details p {
+        width: 410px;
+    }
+
+    .fa-ul {
+        width: 350px;
+        margin-top: 30px;
+    }
+
+    .social-icon {
+        float: none;
+        text-align: right;
+        margin-bottom: 5px;
+    }
+    .login-menu {
+        text-align: right;
+        float: none;
+    }
+    .nav-top {
+        padding: 10px 0;
+    }
+    .menu {
+        margin-top: 10px;
+    }
+
+    .logo h6 {
+        padding-left: 0px;
+        font-size: 12px;
+    }
+    .banner-details {
+        padding: 50px 0;
+    }
+
+    .section-container h2 {
+        font-size: 55px;
+    }
+    .section-container h3 {
+        font-size: 30px;
+    }
+    .section-container p {
+        font-size: 14px;
+        width: 580px;
+        margin-top: 20px;
+    }
+    .section-container button {
+        padding: 8px 40px 8px 40px;
+        margin-top: 60px;
+        font-size: 13px;
+    }
+    .find-hotel {
+        padding: 30px 20px;
+    }
+    .find-hotel-heading h2 {
+        font-size: 23px;
+    }
+
+    .search-form{
+        margin-top: 30px;
+    }
+
+
+    .find-hotel h5 {
+        font-size: 16px;
+    }
+
+    .find-hotel input {
+        padding: 5px 0px 5px 10px;
+        font-size: 14px;
+    }
+    .form-btn button {
+        font-size: 12px;
+        padding: 8px 25px;
+        margin-top: 30px;
+    }
+
+    .services-heading h2{
+        font-size: 28px;
+    }
+    .services-heading h1{
+        font-size: 30px;
+    }
+    .inner-services-boxes{
+        margin-top: 30px;
+    }
+    .services-details h3{
+        margin-top: 0px;
+        font-size: 25px;
+    }
+    .services-details p{
+        font-size: 13px;
+    }
+
+    .budget h2{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .budget h1{
+        font-size: 30px;
+    }
+    .budget-details{
+        margin-top: 70px;
+    }
+    .budget-blog{
+        padding: 20px 0 20px;
+    }
+    .budget-title h4{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .list ul li{
+        margin-top: 7px;
+        padding-left: 5px;
+    }
+    .fa-ul li i{
+        font-size: 21px;
+    }
+    .tour-status-nav{
+        margin-top: 30px;
+    }
+    .tour-status-nav li a{
+        padding: 15px 50px;
+        font-size: 18px;
+    }
+    .tour-status-nav li.active a:after{
+        border-left: 16px solid #00a4ff;
+    }
+    .tour-status-nav li a:before{
+        border-top: 37px solid transparent;
+        border-bottom: 33px solid transparent;
+        border-left: 15px solid white;
+        margin-top: -35px;
+    }
+    .tour-status-nav li a:after{
+        border-top: 33px solid transparent;
+        border-bottom: 33px solid transparent;
+        border-left: 15px solid #e4e4e4;
+        margin-top: -32px;
+    }
+    .tour-status-details p{
+        width: 490px;
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    .tour-status-link a{
+        padding: 10px 30px;
+        margin-top: 15px;
+    }
+    .tours-heading{
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .explore{
+        padding: 50px 0px 20px 0px;
+    }
+    .explore-blog{
+        margin-top: 20px;
+    }
+    .explore-blog button{
+        padding: 8px 25px;
+        font-size: 12px;
+    }
+    .explore-blog h5{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .explore-blog p{
+        margin-top: 10px;
+        padding: 0px 30px 20px 30px;
+        font-size: 14px;
+    }
+    .booking{
+        padding: 60px 40px 30px 70px;
+    }
+    .booking-details{
+        margin-top: 50px;
+    }
+    .booking-details h2{
+        font-size: 25px;
+    }
+    .booking-details h3{
+        margin-top: 0px;
+        font-size: 25px;
+    }
+    .booking-transport{
+        margin-top: 15px;
+    }
+    .booking-transport li img{
+        width: 35px;
+    }
+    .booking-transport li span{
+        margin-top: 5px;
+    }
+    .booking-details p{
+        width: 370px;
+        margin: 10px 0px;
+        font-size: 13px;
+    }
+    .booking-price{
+        font-size: 25px;
+    }
+    .booking-button{
+        padding: 5px 25px;
+         margin-top: 0px; 
+        font-size: 12px;
+    }
+    .reviews{
+        padding: 40px 0px 20px 0px;
+    }
+    .reviews-heading h2{
+        font-size: 30px;
+    }
+    .reviews-heading h1{
+        margin: 0px;
+        font-size: 35px;
+    }
+    .reviews-heading p{
+        padding: 0px 110px;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .customer-details {
+        margin-top: 30px;
+    }
+    .customer-details{
+        width: 22%;
+    }
+    .profile-details h5{
+        font-size: 16px;
+    }
+
+    .contact-us-top{
+        padding-top: 80px;
+    }
+    .map-icon{
+        margin-top: 0px;
+    }
+    
+
+    
+.inner-about-details {
+    padding: 30px 20px;
+}
+.inner-about-details h2{
+    font-size: 25px;
+}
+.inner-about-details h3{
+    font-size: 25px;
+}
+.inner-about-details p{
+    width: 385px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.fa-ul{
+    width: 320px;
+    margin-left: 1.54285714em;
+    margin-top: 25px;
+}
+.fa-ul li{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.service-text h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.service-text p{
+    font-size: 12px;
+}
+.service-icon img{
+    width: 100%;
+}
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .package-duration {
+        font-size: 16px;
+    }
+    .package-title h4 {
+        font-size: 18px;
+    }
+    .package-detail p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .package-price {
+        font-size: 20px;
+    }
+
+    .logo h6 {
+        padding-left: 0px;
+        font-size: 12px;
+    }
+    .section-container h2 {
+        font-size: 40px;
+    }
+    .section-container h3 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .section-container p{
+        width: 500px;
+    }
+    .section-container button {
+        padding: 8px 30px 8px 30px;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+
+    .find-hotel-heading {
+         margin-top: 0px; 
+    }
+    .find-hotel-heading h2 {
+        font-size: 20px;
+    }
+    .search-form {
+        margin-top: 20px;
+    }
+    .search-form label{
+        font-size: 14px;
+    }
+    .find-hotel input {
+        padding: 5px 0px 5px 5px;
+        font-size: 9px;
+    }
+    .form-btn button {
+        font-size: 9px;
+        padding: 6px 15px;
+        margin-top: 33px;
+    }
+
+
+    .inner-about-details {
+        padding: 20px 10px;
+    }
+    .inner-about-details h2 {
+        font-size: 22px;
+    }
+    .inner-about-details h3 {
+        font-size: 22px;
+    }
+    .inner-about-details p {
+        width: 340px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .fa-ul {
+        margin-left: 1.54285714em !important;
+    }
+    .fa-ul li {
+        font-size: 11px;
+        margin-top: 15px;
+    }
+
+
+    .services {
+        padding: 30px 20px;
+    }
+    .services-heading h2 {
+        font-size: 24px;
+    }
+    .services-heading h1 {
+        font-size: 26px;
+    }
+    .inner-services-boxes {
+        margin-top: 20px;
+    }
+    .inner-services-boxes img{
+        padding: 0px;
+    }
+    .services-details h3 {
+        font-size: 20px;
+    }
+    .services-details p {
+        font-size: 12px;
+        width: 250px;
+    }
+
+
+    .budget{
+        padding-top: 10px;
+    }
+    .budget h2 {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .budget h1 {
+        font-size: 26px;
+    }
+    .budget-details {
+        margin-top: 40px;
+    }
+    .budget-title h4 {
+        font-size: 18px;
+        margin: 0px 0;
+    }
+    .tag{
+        margin: 15px -3px;
+    }
+    .tag h4 {
+        font-size: 20px;
+    }
+    .list {
+        padding: 0px 50px 5px 50px;
+    }
+    .list ul li {
+        margin-top: 7px;
+        padding-left: 5px;
+    }
+
+    .budget-background-shadow {
+        margin-top: -80px;
+    }
+
+
+    .section {
+        padding: 50px 20px;
+    }
+    .tour-status-heading h3 {
+        font-size: 25px;
+    }
+    .tour-status-heading h2 {
+        font-size: 25px;
+    }
+    .tour-status-nav {
+        margin-top: 20px;
+    }
+    .tour-status-nav li a {
+        padding: 20px 40px;
+    }
+    .tour-status-nav li a {
+        padding: 20px 40px;
+    }
+    .tour-status-details p {
+        width: 450px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    .tour-status-link a {
+        padding: 5px 25px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+
+    .tours-heading {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .tours-heading h3 {
+        font-size: 25px;
+    }
+    .tours-heading h2 {
+        font-size: 25px;
+    }
+    .tours-places-blog h4 {
+        font-size: 18px;
+    }
+    .tours-places-blog h3 {
+        font-size: 18px;
+    }
+    .tours-places-blog p {
+        font-size: 15px;
+    }
+    .tours-places-blog button{
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+
+
+    .explore {
+        padding: 40px 0px 10px 0px;
+    }
+    .explore-heading h3 {
+        font-size: 25px;
+    }
+    .explore-heading h2 {
+        font-size: 25px;
+    }
+    .explore-blog button {
+        padding: 5px 20px;
+        font-size: 11px;
+    }
+    .explore-blog h5 {
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    .explore-blog p {
+        margin-top: 5px;
+        padding: 0px 20px 10px 20px;
+        font-size: 12px;
+    }
+
+
+    .booking-details{
+        width: 320px;
+        margin-top: 50px;
+        padding: 5px 2px;
+    }
+    .booking-details h2 {
+        font-size: 20px;
+    }
+    .booking-details h3 {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .booking-transport {
+        margin: 10px 20px 0px 20px;
+    }
+    .booking-details .row {
+        margin-top: 5px;
+    }
+    .booking-transport li img {
+        width: 25px;
+    }
+    .booking-transport li span {
+        font-size: 12px;
+    }
+    .booking-details p {
+        width: 300px;
+        margin: 5px 20px;
+        font-size: 10px;
+    }
+    .booking-price {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .booking-button {
+        padding: 3px 20px;
+        margin-top: 0px;
+        font-size: 11px;
+    }
+
+
+    .reviews {
+        padding: 30px 0px 10px 0px;
+    }
+    .reviews-heading h2 {
+        font-size: 25px;
+    }
+    .reviews-heading h1 {
+        font-size: 30px;
+    }
+    .reviews-heading p {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .customer-details {
+        width: 27%;
+    }
+    .customer-details img {
+        width: 50px;
+        height: 100%;
+    }
+    .profile-details h5 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .profile-details span {
+        font-size: 14px;
+    }
+
+
+    .contact-us-top {
+        padding-top: 50px;
+    }
+    .contact-us-heading h3 {
+        font-size: 27px;
+    }
+    .contact-us-heading h2 {
+        font-size: 27px;
+    }
+    .contact-us-heading img {
+        width: 60px;
+        height: 93px;
+    }
+
+
+    .contact-us-center {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .contact-us-detail-img img {
+        width: 40px;
+    }
+    .phone img{
+        width: 34px;
+        height: 40px;
+    }
+    .contact-us-details h5 {
+        font-size: 17px;
+    }
+
+
+    .contact-us-links {
+        margin-top: 50px;
+        margin-left: 180px;
+    }
+    .contact-us-links ul li{
+        font-size: 24px;
+        margin-left: 15px;
+        width: 50px;
+        height: 50px;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+
+
+    .footer-logo {
+        margin-top: -110px;
+        margin-left: 20px;
+    }
+    .footer-logo img {
+        width: 160px;
+        height: 160px;
+    }
+    .footer-logo h5 {
+        letter-spacing: 3px;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    .creator p {
+        line-height: 20px;
+        margin-left: 30px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .package {
+         float: none; 
+         width: 100%; 
+         margin-bottom: 10px; 
+    }
+    .package.triangle {
+         margin: 0 0 10px; 
+         width: 100%; 
+         margin-bottom: 10px; 
+    }
+    .package.triangle {
+        margin-bottom: 80px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background: #943cf3;
+        top: 100%;
+        width: 100%;
+        margin: 0 -15px;
+        z-index: 9;
+    }
+    .menu_icon {
+        display: block;
+        color: #fff;
+    }
+    .menu ul {
+        text-align: left;
+    }
+    .menu li {
+        display: block;
+    }
+    .contact-info {
+        text-align: center;
+    }
+    .social-icon {
+        text-align: center;
+    }
+    .login-menu {
+        text-align: center;
+    }
+    .login-menu a i {
+        padding: 0 10px;
+    }
+    .section-container p {
+        width: 300px;
+    }
+    .search-form label {
+        margin: 15px 0px 0px 0px;
+    }
+
+
+    .services-heading h1 {
+        font-size: 20px;
+    }
+    .boxes-img {
+        width: 40%;
+    }
+    .services-details {
+        width: 50%;
+    }
+    .services-details h3 {
+        font-size: 22px;
+    }
+    .services-details p {
+        font-size: 15px;
+    }
+
+
+    .budget-icon img {
+        max-width: 100%;
+    }
+    .budget-title h4 {
+        font-size: 20px;
+    }
+    .tag h4 {
+        font-size: 25px;
+    }
+    .list {
+        padding: 0px 50px 5px 80px;
+    }
+    .fa-ul li {
+        font-size: 13px;
+    }
+    .budget-blog {
+        margin-bottom: 10px;
+    }
+    .tour-status-nav li a {
+        padding: 10px 10px;
+    }
+    .tour-status-nav li a:before {
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 14px solid white;
+        margin-top: -30px;
+    }
+    .tour-status-nav li a {
+        font-size: 15px;
+    }
+    .tour-status-nav li.active a:after {
+        border-left: 13px solid #00a4ff;
+    }
+    .tour-status-nav li a:after {
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 14px solid #e4e4e4;
+        margin-top: -25px;
+    }
+    .tour-status-details p {
+        width: 310px;
+        margin-top: 20px;
+    }
+
+
+    .explore-blog button {
+        padding: 8px 25px;
+        font-size: 12px;
+    }
+    .explore-blog h5 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .explore-blog p {
+        padding: 0px 20px 10px 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .explore-blog {
+        padding-bottom: 10px;
+    }
+
+
+    .booking-details{
+        margin-top: 10px;
+         margin-left: -50px; 
+    }
+    .reviews-heading p {
+        padding: 0 0px;
+    }
+    .customer-details {
+        width: 60%;
+    }
+
+
+    .contact-us-top {
+        padding-top: 0px;
+    }
+    .contact-us-links {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .contact-us-links ul li {
+        margin-left: 5px;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+
+
+    .footer-logo {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .creator p {
+        text-align: center;  
+        margin-left: 60px;
+}
+}
+img{
+max-width: 100%;
+}
